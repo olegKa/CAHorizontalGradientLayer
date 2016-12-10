@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		0A72DC2561D5A5BBCFC18B994CCFB10C /* CAHorizontalGradientLayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86CC5C1CA42B204BC732AEB1E28A281C /* CAHorizontalGradientLayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4490157CEA64103D66E38E2208DB1C6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4FFBB0701DFBE93C00E529AC /* CAHorizontalGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FFBB06E1DFBE93C00E529AC /* CAHorizontalGradientLayer.h */; };
+		4FFBB0711DFBE93C00E529AC /* CAHorizontalGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFBB06F1DFBE93C00E529AC /* CAHorizontalGradientLayer.m */; };
 		7A4AFE2B761A23C3B03D483E940D8543 /* CAHorizontalGradientLayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F08C9D233BC365982FF1E04D8FF5691 /* CAHorizontalGradientLayer-dummy.m */; };
-		A3FE4EDCDEFD9953E5CB8ACF5CDA814F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ACCE1697AA20836C6088897BEACC0A /* ReplaceMe.m */; };
 		BD7A03AC605EE93F97154A90B42DB86D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		D44E1C52DE3BCB5D5B10144AE11EBAAD /* Pods-CAHorizontalGradientLayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1188342883314CC969CBC90F31B50 /* Pods-CAHorizontalGradientLayer_Tests-dummy.m */; };
 		EBD89BFE924C4CD92E3DE9E56E21DA1B /* Pods-CAHorizontalGradientLayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98A3A8A19F8C776069697246010C11C7 /* Pods-CAHorizontalGradientLayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,10 +35,11 @@
 		2F08C9D233BC365982FF1E04D8FF5691 /* CAHorizontalGradientLayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAHorizontalGradientLayer-dummy.m"; sourceTree = "<group>"; };
 		351FC2AED0BEF6B80B6AAF122CB123EE /* Pods-CAHorizontalGradientLayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CAHorizontalGradientLayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C5B61799C78354F4438775D6F08C83D /* Pods-CAHorizontalGradientLayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CAHorizontalGradientLayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4FFBB06E1DFBE93C00E529AC /* CAHorizontalGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAHorizontalGradientLayer.h; sourceTree = "<group>"; };
+		4FFBB06F1DFBE93C00E529AC /* CAHorizontalGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAHorizontalGradientLayer.m; sourceTree = "<group>"; };
 		69B53768DE26496DAD830ED1B5C43B38 /* Pods-CAHorizontalGradientLayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CAHorizontalGradientLayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6A2048F587967BFA5CB17D633E6F8586 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76AF4DA011298A3F9634DEF1C809D01A /* Pods-CAHorizontalGradientLayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CAHorizontalGradientLayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		83ACCE1697AA20836C6088897BEACC0A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		86CC5C1CA42B204BC732AEB1E28A281C /* CAHorizontalGradientLayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAHorizontalGradientLayer-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		950D7EF8D41C5A6755F559E218D5543A /* CAHorizontalGradientLayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAHorizontalGradientLayer-prefix.pch"; sourceTree = "<group>"; };
@@ -175,7 +177,8 @@
 		F8F672BDF76B214C9BF64B68FEC5C495 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				83ACCE1697AA20836C6088897BEACC0A /* ReplaceMe.m */,
+				4FFBB06E1DFBE93C00E529AC /* CAHorizontalGradientLayer.h */,
+				4FFBB06F1DFBE93C00E529AC /* CAHorizontalGradientLayer.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FFBB0701DFBE93C00E529AC /* CAHorizontalGradientLayer.h in Headers */,
 				0A72DC2561D5A5BBCFC18B994CCFB10C /* CAHorizontalGradientLayer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A4AFE2B761A23C3B03D483E940D8543 /* CAHorizontalGradientLayer-dummy.m in Sources */,
-				A3FE4EDCDEFD9953E5CB8ACF5CDA814F /* ReplaceMe.m in Sources */,
+				4FFBB0711DFBE93C00E529AC /* CAHorizontalGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
