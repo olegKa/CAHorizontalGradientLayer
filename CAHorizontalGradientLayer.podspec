@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/CAHorizontalGradientLayer'
+  s.homepage         = 'https://github.com/olegKa/CAHorizontalGradientLayer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'olegKa' => 'kalinin_oleg@list.ru' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/CAHorizontalGradientLayer.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/olegka/CAHorizontalGradientLayer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

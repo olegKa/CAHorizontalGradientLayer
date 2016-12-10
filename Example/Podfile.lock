@@ -1,0 +1,16 @@
+PODS:
+  - CAHorizontalGradientLayer (0.1.0)
+
+DEPENDENCIES:
+  - CAHorizontalGradientLayer (from `../`)
+
+EXTERNAL SOURCES:
+  CAHorizontalGradientLayer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CAHorizontalGradientLayer: 5f3e1d42f64262c151a14fcec537d05c6b827ae5
+
+PODFILE CHECKSUM: 758de0b03ec133b19573cd37694185aed1032fbe
+
+COCOAPODS: 1.1.1

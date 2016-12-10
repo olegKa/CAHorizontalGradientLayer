@@ -1,0 +1,6 @@
+framework module CAHorizontalGradientLayer {
+  umbrella header "CAHorizontalGradientLayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
